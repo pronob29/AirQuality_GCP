@@ -30,3 +30,26 @@ To replicate this project, follow these steps:
 ```bash
 git clone https://github.com/pronob29/AirQuality_GCP.git
 cd AirQuality_GCP
+   ```
+### 2. Set Up Google Cloud Project
+- Create a new project on GCP.
+- Enable the necessary APIs: AI Platform, Cloud Storage, and Compute Engine.
+### 3. Install Required Dependencies
+Ensure Python 3.x is installed. Install the required Python packages using:
+
+```bash
+pip install -r requirements.txt
+```
+### 4. Configure Google Cloud SDK
+- Install the Google Cloud SDK.
+- Authenticate your account:
+```bash
+gcloud auth login
+```
+- Set your project:
+```bash
+gcloud config set project your-project-id
+```
+### Acknowledgments
+This project is based on the tutorial "Tutorial 6: Deployment of Machine Learning Models in Google Cloud" by Krish Naik. The original tutorial can be found on YouTube.
+
